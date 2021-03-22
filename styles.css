@@ -1,0 +1,35 @@
+#shape-target {
+    width: 600px;
+    height: 600px;
+    background: #c0b4b42c;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.display-details {
+    width: 250px;
+    height: 600px;
+    background: #607a9b;
+    overflow: hidden;
+    position: relative;
+}
+
+.triangle,.square,.circle,.rectangle {
+    opacity: 0.94;
+    position:absolute;
+}
+.circle {
+    background-color: rgb(145, 28, 145);
+}
+
+.rectangle {
+    background-color: rgb(30, 117, 56);
+}
+
+.triangle {
+    background-color: rgb(55, 12, 155);
+}
+
+.square {
+    background-color: rgb(235, 14, 14);
+}

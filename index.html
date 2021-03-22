@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="columns ">
+                <div class="inputsSquare">
+                    <span class="inputs">Add Square</span>
+                    <input class='inputPixelTextLength' type="text" placeholder="side length">
+                    <div class="enterButton">
+                        <input type="submit" class="button" value="Enter">
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns ">
+                <div class="inputsRectangle">
+                    <span class="inputs">Add Rectangle</span>
+                    <input class='inputPixelTextHeight' type="text" placeholder="height">
+                    <input class="inputPixelTextWidth" type="number" placeholder="width">
+                    <div class="enterButton">
+                        <input type="submit" class="button" value="Enter">
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns ">
+                <div class="inputs">
+                    <span class="inputsCircle">Add Circle</span>
+                    <input class='inputPixelTextRadius' type="text" placeholder="pixels">
+                    <div class="enterButton">
+                        <input type="submit" class="button" value="Enter">
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns ">
+                <div class="inputs">
+                    <span class="inputsTriangle">Add Triangle</span>
+                    <input class='inputPixelTextTriangleHeight' type="text" placeholder="pixels">
+                    <div class="enterButton">
+                        <input type="submit" class="button" value="Enter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shapes -->
+
+    <div class="row target-container">
+        <div class="container">
+            <div id="shape-target">
+            </div>
+        </div>
+    </div> 
+
+
+    <div class="display-details">
+        <h3>SHAPE STATS</h3>
+        <p id="shape-name">shape: <span></span></p>
+        <p id="height">height: <span></span></p>
+        <p id="width">width: <span></span></p>
+        <p id="radius">radius: <span></span></p>
+        <p id="area">area: <span></span></p>
+        <p id="perimeter">perimeter: <span></span></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
